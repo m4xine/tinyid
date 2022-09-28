@@ -3,7 +3,7 @@ name:               tinyid
 version:            0.1.0.0
 synopsis:           A secure URL-friendly string ID generator
 homepage:           https://github.com/m4xine/tinyid
-bug-reports:        https://github.com/m4xine/
+bug-reports:        https://github.com/m4xine/tinyid/issues
 license:            MIT
 license-file:       LICENSE
 author:             m4xine
