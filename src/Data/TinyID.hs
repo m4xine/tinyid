@@ -11,7 +11,7 @@ import            Data.String           (fromString)
 
 -- | A URL-friendly alphabet.
 urlSafeAlphabet :: ByteString
-urlSafeAlphabet = fromString $ ['a'..'z'] <> ['A'..'Z'] <> ['0'..'9'] <> "-_~"
+urlSafeAlphabet = fromString $ ['a'..'z'] <> ['A'..'Z'] <> ['0'..'9'] <> "-_"
 
 -- | Generates a (cryptographically) secure ID with a specified 
 -- alphabet at a given length from system entropy.
