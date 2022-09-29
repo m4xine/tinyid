@@ -10,6 +10,8 @@ import            System.Entropy        (getEntropy)
 import            Data.String           (fromString)
 
 -- | A URL-friendly alphabet.
+--
+-- See section 2.3 of [RFC3986](https://www.ietf.org/rfc/rfc3986.txt) for more information.
 urlSafeAlphabet :: ByteString
 urlSafeAlphabet = fromString $ ['a'..'z'] <> ['A'..'Z'] <> ['0'..'9'] <> "-_"
 
